@@ -2,6 +2,10 @@
 
 Application professionnelle de gestion d'items de jeu développée en Java/JavaFX. Ce logiciel permet la gestion complète des items avec leurs statistiques, offrant une interface moderne et intuitive.
 
+## 🎯 Objectif du Projet
+
+L'objectif principal de Game Manager est de fournir un outil robuste et flexible pour les développeurs et gestionnaires de jeux, permettant une gestion efficace et détaillée des items de jeu.
+
 ## 🚀 Fonctionnalités
 
 ### Gestion des Items
@@ -30,6 +34,15 @@ Application professionnelle de gestion d'items de jeu développée en Java/JavaF
 - Gestion des erreurs robuste
 - Aide intégrée
 - Préférences utilisateur persistantes
+
+## 💡 Nouveautés et Améliorations Potentielles
+
+Nous sommes ouverts aux suggestions d'amélioration. Voici quelques pistes :
+- Intégration d'un système de recherche plus avancé
+- Support multilingue
+- Synchronisation cloud
+- Générateur d'items aléatoires
+- Statistiques et analytics
 
 ## 🛠️ Prérequis
 
@@ -111,6 +124,12 @@ mvn jacoco:report
 4. Push la branche (`git push origin feature/nouvelle-fonctionnalite`)
 5. Créer une Pull Request
 
+### Directives de Contribution
+- Suivez les conventions de code Java
+- Écrivez des tests unitaires pour chaque nouvelle fonctionnalité
+- Assurez-vous que tous les tests passent avant de soumettre
+- Documentez vos changements dans le CHANGELOG.md
+
 ## 📝 License
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
@@ -130,3 +149,9 @@ Pour toute question ou problème :
 1. Consulter la documentation intégrée (F1)
 2. Vérifier les [Issues GitHub](https://github.com/lolcontest/java-project-2024/issues)
 3. Ouvrir une nouvelle issue si nécessaire
+
+## 📊 Statistiques du Projet
+
+![GitHub stars](https://img.shields.io/github/stars/lolcontest/java-project-2024)
+![GitHub forks](https://img.shields.io/github/forks/lolcontest/java-project-2024)
+![GitHub last commit](https://img.shields.io/github/last-commit/lolcontest/java-project-2024)
