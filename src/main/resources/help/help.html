@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aide - Game Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #2196f3;
+        }
+        .shortcut {
+            background-color: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guide d'utilisation - Game Manager</h1>
+    
+    <h2>Raccourcis clavier</h2>
+    <table>
+        <tr>
+            <th>Raccourci</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td><span class="shortcut">Ctrl+S</span></td>
+            <td>Sauvegarder</td>
+        </tr>
+        <tr>
+            <td><span class="shortcut">Ctrl+N</span></td>
+            <td>Nouvel item</td>
+        </tr>
+        <tr>
+            <td><span class="shortcut">Ctrl+F</span></td>
+            <td>Rechercher</td>
+        </tr>
+        <tr>
+            <td><span class="shortcut">Delete</span></td>
+            <td>Supprimer l'item sélectionné</td>
+        </tr>
+        <tr>
+            <td><span class="shortcut">Ctrl+E</span></td>
+            <td>Exporter</td>
+        </tr>
+        <tr>
+            <td><span class="shortcut">Ctrl+I</span></td>
+            <td>Importer</td>
+        </tr>
+        <tr>
+            <td><span class="shortcut">Ctrl+T</span></td>
+            <td>Changer de thème</td>
+        </tr>
+        <tr>
+            <td><span class="shortcut">F1</span></td>
+            <td>Afficher l'aide</td>
+        </tr>
+    </table>
+    
+    <h2>Format des statistiques</h2>
+    <p>Les statistiques sont au format : <span class="shortcut">statId#minValue#maxValue</span></p>
+    <p>Exemple : <span class="shortcut">7d#3E8#3E8</span> représente :</p>
+    <ul>
+        <li>statId: 7d (dommages)</li>
+        <li>minValue: 3E8 (1000 en hexadécimal)</li>
+        <li>maxValue: 3E8 (1000 en hexadécimal)</li>
+    </ul>
+    
+    <h2>Gestion des items</h2>
+    <p>Pour créer un nouvel item :</p>
+    <ol>
+        <li>Cliquez sur le bouton "Nouveau" ou utilisez <span class="shortcut">Ctrl+N</span></li>
+        <li>Remplissez les champs requis (ID, Nom, etc.)</li>
+        <li>Ajoutez des statistiques si nécessaire</li>
+        <li>Sauvegardez avec <span class="shortcut">Ctrl+S</span></li>
+    </ol>
+    
+    <h2>Export/Import</h2>
+    <p>L'application supporte deux formats d'export :</p>
+    <ul>
+        <li><strong>ZIP</strong> : Sauvegarde complète des données</li>
+        <li><strong>CSV</strong> : Format tableur pour analyse externe</li>
+    </ul>
+</body>
+</html>
