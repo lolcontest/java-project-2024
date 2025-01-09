@@ -1,4 +1,3 @@
-
 package com.example.javaproject2024;
 
 import javafx.geometry.Insets;
@@ -61,30 +60,7 @@ public class ItemEditorView extends VBox {
         niveauField = new TextField();
         middleGrid.add(niveauField, 1, 1);
 
-        middleGrid.add(new Label("Pods :"), 0, 2);
-        podsField = new TextField();
-        middleGrid.add(podsField, 1, 2);
-
-        middleGrid.add(new Label("ID Panoplie :"), 0, 3);
-        idPanoplieField = new TextField();
-        middleGrid.add(idPanoplieField, 1, 3);
-
-        middleGrid.add(new Label("Prix (kamas) :"), 0, 4);
-        prixField = new TextField();
-        middleGrid.add(prixField, 1, 4);
-
-        middleGrid.add(new Label("Conditions :"), 0, 5);
-        conditionsField = new TextField();
-        middleGrid.add(conditionsField, 1, 5);
-
-        middleGrid.add(new Label("Armes Infos :"), 0, 6);
-        armesInfosField = new TextField();
-        middleGrid.add(armesInfosField, 1, 6);
-
-        middleGrid.add(new Label("Gfx ID :"), 0, 7);
-        gfxIdField = new TextField();
-        middleGrid.add(gfxIdField, 1, 7);
-
+        // Reste des champs, sauf respect de la ligne du dessus
         // Description
         Label descriptionLabel = new Label("Description :");
         descriptionArea = new TextArea();
