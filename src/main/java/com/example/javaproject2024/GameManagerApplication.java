@@ -1,3 +1,4 @@
+
 package com.example.javaproject2024;
 
 import javafx.application.Application;
