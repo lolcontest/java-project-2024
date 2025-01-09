@@ -1,1 +1,67 @@
-IyBHYW1lIE1hbmFnZXIKCkFwcGxpY2F0aW9uIHByb2Zlc3Npb25uZWxsZSBkZSBnZXN0aW9uIGQnaXRlbXMgZGUgamV1IGTDqXZlbG9wcMOpZSBlbiBKYXZhL0phdmFGWC4gQ2UgbG9naWNpZWwgcGVybWV0IGxhIGdlc3Rpb24gY29tcGzDqHRlIGRlcyBpdGVtcyBhdmVjIGxldXJzIHN0YXRpc3RpcXVlcywgb2ZmcmFudCB1bmUgaW50ZXJmYWNlIG1vZGVybmUgZXQgaW50dWl0aXZlLgoKIyDwn5qAIE9iamVjdGlmIGR1IFByb2pldAoKTCdvYmplY3RpZiBwcmluY2lwYWwgZGUgR2FtZSBNYW5hZ2VyIGVzdCBkZSBmb3VybmlyIHVuIG91dGlsIHJvYnVzdGUgZXQgZmxleGlibGUgcG91ciBsZXMgZMOpdmVsb3BwZXVycyBldCBnZXN0aW9ubmFpcmVzIGRlIGpldXgsIHBlcm1ldHRhbnQgdW5lIGdlc3Rpb24gZWZmaWNhY2UgZXQgZMOpdGFpbGzDqWUgZGVzIGl0ZW1zIGRlIGpldS4KCiMg8J+agCBGb25jdGlvbm5hbGl0w6lzCgouLi4gKFJlc3RlIGlkZW50aXF1ZSBhdSBjb250ZW51IHByw6ljw6lkZW50KQoKIyDwn5qhIE5vdXZlYXV0w6lzIGV0IEFtw6lsaW9yYXRpb25zIFBvdGVudGllbGxlcwoKTm91cyBzb21tZXMgb3V2ZXJ0cyBhdXggc3VnZ2VzdGlvbnMgZCdBbcOJbGlvcmF0aW9uLiBWb2ljaSDDoCBxdWVscXVlcyBwaXN0ZXMgOgotIEludMOpZ3JhdGlvbiBkJ3VuIHN5c3TDqG1lIGRlIHJlY2hlcmNoZSBwbHVzIGF2YW5jw6kKLSBTdXBwb3J0IG11bHRpbGluZ3VlCi0gU3luY2hyb25pc2F0aW9uIGNsb3VkCi0gR8OpbsOpcmF0ZXVyIGQnaXRlbXMgYWzDqWF0b2lyZXMKLSBTdGF0aXN0aXF1ZXMgZXQgYW5hbHl0aWNzCgpbUmVzdGUgZHUgY29udGVudSBpZGVudGlxdWUgYXUgUkVBRE1FIHByw6ljw6lkZW50XQoKIyDwn5qUIFN0YXRpc3RpcXVlcyBkdSBQcm9qZXQKCiEuWyBHaXRodWIgc3RhcnNdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vZ2l0aHViL3N0YXJzL2xvbGNvbnRlc3QvamF2YS1wcm9qZWN0LTIwMjQpCiEuWyBHaXRodWIgZm9ya3NdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vZ2l0aHViL2ZvcmtzL2xvbGNvbnRlc3QvamF2YS1wcm9qZWN0LTIwMjQpCiEuWyBHaXRodWIgbGFzdCBjb21taXRdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vZ2l0aHViL2xhc3QtY29tbWl0L2xvbGNvbnRlc3QvamF2YS1wcm9qZWN0LTIwMjQp
+# 🎮 Game Manager
+
+Application professionnelle de gestion d'items de jeu développée en Java/JavaFX. Ce logiciel permet la gestion complète des items avec leurs statistiques, offrant une interface moderne et intuitive.
+
+## 🎯 Objectif du Projet
+
+L'objectif principal de Game Manager est de fournir un outil robuste et flexible pour les développeurs et gestionnaires de jeux, permettant une gestion efficace et détaillée des items de jeu.
+
+## 🚀 Fonctionnalités
+
+- Gestion complète des items de jeu
+- Interface utilisateur moderne et intuitive
+- Système de suivi des statistiques détaillé
+- Personnalisation avancée des items
+
+## 🔧 Améliorations Potentielles
+
+### Système de Recherche Avancé
+- Implémentation de filtres multicritères
+- Recherche par mots-clés
+- Suggestions intelligentes basées sur l'historique
+
+### Support Multilingue
+- Internationalisation (i18n)
+- Prise en charge de plusieurs langues
+- Détection automatique de la langue du système
+
+### Synchronisation Cloud
+- Sauvegarde automatique dans le cloud
+- Synchronisation multi-appareils
+- Gestion des versions et historique
+
+### Générateur d'Items Aléatoires
+- Création d'items avec des attributs dynamiques
+- Personnalisation des paramètres de génération
+- Support de différents algorithmes de génération
+
+### Statistiques et Analytics
+- Tableaux de bord détaillés
+- Analyse des tendances d'items
+- Exports de rapports personnalisables
+
+## 🤝 Comment Contribuer
+
+Nous accueillons les contributions ! Voici comment vous pouvez aider :
+
+1. Fork le repository
+2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/AmazingFeature`)
+3. Committez vos modifications (`git commit -m 'Ajout d'une fonctionnalité incroyable'`)
+4. Pushez votre branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une Pull Request
+
+### Lignes Directrices de Contribution
+- Suivez les conventions de codage Java
+- Documentez votre code
+- Écrivez des tests unitaires
+- Assurez-vous que tous les tests passent avant de soumettre
+
+## 📊 Statistiques du Projet
+
+![Github stars](https://img.shields.io/github/stars/lolcontest/java-project-2024)
+![Github forks](https://img.shields.io/github/forks/lolcontest/java-project-2024)
+![Dernier commit](https://img.shields.io/github/last-commit/lolcontest/java-project-2024)
+
+## 📜 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE.md` pour plus de détails.
