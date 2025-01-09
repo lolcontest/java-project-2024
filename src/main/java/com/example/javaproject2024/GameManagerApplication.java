@@ -1,25 +1,2 @@
 
-package com.example.javaproject2024;
-
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
-
-public class GameManagerApplication extends Application {
-
-    @Override
-    public void start(Stage primaryStage) {
-        // Créer l'instance de ItemEditorView
-        ItemEditorView itemEditorView = new ItemEditorView();
-
-        // Créer la scène et l'ajouter à la fenêtre principale
-        Scene scene = new Scene(itemEditorView, 800, 600);
-        primaryStage.setScene(scene);
-        primaryStage.setTitle("Game Manager");
-        primaryStage.show();
-    }
-
-    public static void main(String[] args) {
-        launch(args);
-    }
-}
+cGFja2FnZSBjb20uZXhhbXBsZS5qYXZhcHJvamVjdDIwMjQ7CgppbXBvcnQgamF2YWZ4LmFwcGxpY2F0aW9uLkFwcGxpY2F0aW9uOwppbXBvcnQgamF2YWZ4LnNjZW5lLlNjZW5lOwppbXBvcnQgamF2YWZ4LnN0YWdlLlN0YWdlOwoKcHVibGljIGNsYXNzIEdhbWVNYW5hZ2VyQXBwbGljYXRpb24gZXh0ZW5kcyBBcHBsaWNhdGlvbiB7CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBzdGFydChTdGFnZSBwcmltYXJ5U3RhZ2UpIHsKICAgICAgICAvLyBDcsOpZXIgbCdpbnN0YW5jZSBkZSBJdGVtRWRpdG9yVmlldwogICAgICAgIEl0ZW1FZGl0b3JWaWV3IGl0ZW1FZGl0b3JWaWV3ID0gbmV3IEl0ZW1FZGl0b3JWaWV3KCk7CgogICAgICAgIC8vIENyw6llciBsYSBzY8OobmUgZXQgbCdham91dGVyIMOgIGxhIGZlbsOqdHJlIHByaW5jaXBhbGUKICAgICAgICBTY2VuZSBzY2VuZSA9IG5ldyBTY2VuZShpdGVtRWRpdG9yVmlldywgODAwLCA2MDApOwogICAgICAgIHByaW1hcnlTdGFnZS5zZXRTY2VuZShzY2VuZSk7CiAgICAgICAgcHJpbWFyeVN0YWdlLnNldFRpdGxlKCJHYW1lIE1hbmFnZXIiKTsKICAgICAgICBwcmltYXJ5U3RhZ2Uuc2hvdygpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZ1tdIGFyZ3MpIHsKICAgICAgICBsYXVuY2goYXJncyk7CiAgICB9Cn0K
