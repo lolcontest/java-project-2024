@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.gamemanager.controllers.MainController"
+            prefHeight="800.0" prefWidth="1200.0">
+            
+    <!-- Barre de recherche en haut -->
+    <top>
+        <HBox spacing="10" padding="10">
+            <TextField fx:id="searchField" promptText="Rechercher un item..." HBox.hgrow="ALWAYS"/>
+            <ToggleGroup fx:id="searchType">
+                <RadioButton text="ID" selected="true"/>
+                <RadioButton text="Nom"/>
+            </ToggleGroup>
+            <Button text="Rechercher" onAction="#handleSearch"/>
+        </HBox>
+    </top>
+    
+    <!-- Contenu principal -->
+    <center>
+        <SplitPane dividerPositions="0.3">
+            <!-- Liste des items à gauche -->
+            <TableView fx:id="itemTable">
+                <columns>
+                    <TableColumn fx:id="idColumn" text="ID" />
+                    <TableColumn fx:id="nameColumn" text="Nom" />
+                </columns>
+            </TableView>
+            
+            <!-- Détails de l'item à droite -->
+            <VBox spacing="10" padding="10">
+                <Label text="Détails de l'item" styleClass="title"/>
+                
+                <GridPane vgap="5" hgap="5">
+                    <Label text="ID:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                    <TextField fx:id="idField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                    
+                    <Label text="Nom:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                    <TextField fx:id="nameField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                    
+                    <Label text="Niveau:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+                    <TextField fx:id="levelField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+                    
+                    <Label text="Type:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+                    <TextField fx:id="typeField" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+                </GridPane>
+                
+                <!-- Zone des statistiques -->
+                <TabPane>
+                    <Tab text="Stats" closable="false">
+                        <VBox fx:id="statsContainer" spacing="5">
+                            <Button text="Ajouter une stat" onAction="#handleAddStat"/>
+                        </VBox>
+                    </Tab>
+                    <Tab text="Caractéristiques" closable="false">
+                        <fx:include source="carac-panel.fxml"/>
+                    </Tab>
+                </TabPane>
+                
+                <Button text="Sauvegarder" onAction="#handleSave"/>
+            </VBox>
+        </SplitPane>
+    </center>
+    
+    <!-- Barre de status -->
+    <bottom>
+        <HBox>
+            <Label fx:id="statusLabel"/>
+        </HBox>
+    </bottom>
+            
+</BorderPane>
